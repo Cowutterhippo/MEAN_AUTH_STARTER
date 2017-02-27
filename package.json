@@ -1,0 +1,23 @@
+{
+  "name": "mean_authapp",
+  "version": "1.0.0",
+  "description": "MEAN stack Authentication app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongodb": "^2.2.24",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "Andrew Kolansky",
+  "license": "ISC"
+}

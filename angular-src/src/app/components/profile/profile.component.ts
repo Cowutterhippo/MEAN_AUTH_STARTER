@@ -22,7 +22,7 @@ export class ProfileComponent implements OnInit {
   		},
   		err => {
   			console.log(err);
-  			return flase;
+  			return false;
   		}
 
   		);

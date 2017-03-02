@@ -14,7 +14,7 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { AuthService } from './services/auth.service';
 import {ValidateService} from './services/validate.service';
 import {FlashMessagesModule} from 'angular2-flash-messages';
-import {AuthGuard} from './guards/auth.guard';
+import {AuthGuard} from './guards/auth.guards';
 
 const appRoutes: Routes =  [
   {path:'', component: HomeComponent},
